@@ -21,15 +21,15 @@ to decrypt the file you can do this:
 --- ./a.out {encrypted-file} {destination-file} {your-code}
 
 
-# you need to enter the same code that you entered when used to encrypt the file otherwise you can't access your file!!
+$$ you need to enter the same code that you entered when used to encrypt the file otherwise you can't access your file!!
 
-# example:
+example:
 1:
-# gcc file-coder.c -o coder
-# ./coder image.jpg encryptedFile.jpg 25
-# ./coder encryptedFile.jpg decryptedFile.jpg 25   <-- this line will decrypt the file -->
+gcc file-coder.c -o coder
+./coder image.jpg encryptedFile.jpg 25
+./coder encryptedFile.jpg decryptedFile.jpg 25   <-- this line will decrypt the file -->
 
 2:
-# gcc file-coder.c
-# ./a.out image.jpg encryptedFile.jpg 25
-# ./a.out encryptedFile.jpg decryptedFile.jpg 25   <-- this line will decrypt the file -->
+gcc file-coder.c
+./a.out image.jpg encryptedFile.jpg 25
+./a.out encryptedFile.jpg decryptedFile.jpg 25   <-- this line will decrypt the file -->
